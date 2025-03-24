@@ -1,0 +1,60 @@
+
+.projectsTableContainer {
+  box-shadow: none !important; 
+  border: 1px solid #E0E0E0!important;
+  border-radius: 8px!important; 
+ 
+}
+
+
+.customTable {
+  min-width: 650px!important;
+}
+
+
+.customTable td {
+  border-bottom: none!important;
+}
+
+
+.customTable tbody tr:not(:last-of-type) {
+  border-bottom: 1px solid #E0E0E0!important;
+}
+
+
+.chipEditing {
+  border-radius: 7px!important;
+  font-weight: 500!important;
+  background-color: #F2F4F7!important;
+  color: #5A6670!important;
+}
+
+.chipReview {
+  border-radius: 7px!important;
+  font-weight: 500!important;
+  background-color: #FFF7EC!important;
+  color: #5A6670!important;
+}
+
+.chipPublished {
+  border-radius: 7px;
+  font-weight: 500;
+  background-color: #E2F8EA!important;
+  color: #5A6670;
+}
+
+/* Action buttons */
+.actionButton {
+  color: #0062FF!important;
+  font-weight: 500!important;
+  text-transform: none!important;
+  margin-right: 0!important;
+}
+
+.actionButton:hover {
+  background-color: rgba(0, 98, 255, 0.08)!important;
+}
+
+.actionButtonMargin {
+  margin-right: 0.5rem!important; 
+}

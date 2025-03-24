@@ -1,0 +1,38 @@
+.project-media-container {
+    margin: 40px auto 16px;
+    text-align: center;
+    max-width: 640px;
+  }
+  
+  .project-title {
+    margin-bottom: 8px;
+  }
+  
+  .video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 ratio */
+    background-color: #ccc;
+  }
+  
+  .react-player {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+  
+  .no-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .buttonContainer {
+    display: flex;
+    /* gap: 16px;  */
+    align-items: center;
+  }
+  

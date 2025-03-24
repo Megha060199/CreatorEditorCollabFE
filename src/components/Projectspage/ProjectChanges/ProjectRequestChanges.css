@@ -1,0 +1,90 @@
+/* RequestChangePanel.css */
+
+/* Container for the entire panel */
+.requestChangePanel {
+    margin-bottom: 24px;
+    border-radius: 16px;
+    background-color: #fff;
+
+    margin-left: auto; 
+    margin-right: 22px;
+  }
+  
+  /* Title styling */
+  .requestChangeTitle {
+    margin-bottom: 16px!important;
+    font-weight: bold!important;
+  }
+  
+  /* FormControl for the Select field */
+  .requestFormControl {
+    margin-bottom: 16px!important;
+  }
+  
+  /* Override styles for the Select's outlined input */
+  .requestFormControl .MuiOutlinedInput-root {
+    border-radius: 8px!important;
+  }
+  .requestFormControl .MuiOutlinedInput-root fieldset {
+    border-color: #E0E0E0!important;
+    border-width: 1px!important;
+  }
+  .requestFormControl .MuiOutlinedInput-root:hover fieldset {
+    border-color: #BDBDBD!important;
+  }
+  .requestFormControl .MuiOutlinedInput-root.Mui-focused fieldset {
+    border-color: #0062FF!important;
+  }
+  
+  /* TextField styling */
+  .requestTextField {
+    margin-bottom: 16px!important;
+  }
+  .requestTextField .MuiOutlinedInput-root {
+    border-radius: 8px!important;
+  }
+  .requestTextField .MuiOutlinedInput-root fieldset {
+    border-color: #E0E0E0!important;
+    border-width: 1px!important;
+  }
+  .requestTextField .MuiOutlinedInput-root:hover fieldset {
+    border-color: #BDBDBD!important;
+  }
+  .requestTextField .MuiOutlinedInput-root.Mui-focused fieldset {
+    border-color: #0062FF!important;
+  }
+  
+
+  .requestButton {
+    display: block!important;;
+    margin-left: auto!important;;
+    margin-right: auto!important;;
+    background-color: #EAEFF5!important;
+    color: #000!important;
+    border-radius: 11px!important;
+    padding-top: 4px !important;
+    padding-bottom: 4px!important;
+    padding-left: 52px!important;
+    padding-right: 52px!important;
+    text-transform: none!important;
+    box-shadow: none!important;
+  }
+  .requestButton:hover {
+    background-color: #DDE2EA!important;
+    box-shadow: none!important;
+  }
+  .approve{
+    display: block!important;;
+    margin-left: auto!important;;
+    margin-right: auto!important;;
+  
+    border-radius: 11px!important;
+    padding-top: 4px !important;
+    padding-bottom: 4px!important;
+    padding-left: 52px!important;
+    padding-right: 52px!important;
+    text-transform: none!important;
+    box-shadow: none!important;
+
+  }
+  

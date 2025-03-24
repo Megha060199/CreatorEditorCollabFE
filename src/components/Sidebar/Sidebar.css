@@ -1,0 +1,28 @@
+.sidebar {
+    width: 240px;
+    flex-shrink: 0;
+  }
+  
+  .sidebar-paper {
+    width: 240px;
+    box-sizing: border-box;
+    border: none;
+  }
+  
+  .sidebar-toolbar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar-title {
+    font-weight: bold;
+  }
+  
+  .sidebar-list-container {
+    overflow: auto;
+  }
+  
+  .sidebar-list-item {
+    text-decoration: none;
+  }
+  

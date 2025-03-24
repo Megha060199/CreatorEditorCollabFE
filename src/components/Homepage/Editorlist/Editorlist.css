@@ -1,0 +1,16 @@
+/* EditorList.css */
+
+/* This class replaces the inline style on ListItem */
+.editorListItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* This class replaces the inline style on the inner div */
+  .editorListItemContent {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+  }
+  

@@ -1,0 +1,39 @@
+/* SearchBar.css */
+
+/* Container for the search section */
+.searchContainer {
+  margin-bottom: 24px;      /* corresponds to mb: 3 (3 * 8px) */
+  max-width: 1400px;
+}
+
+/* Title styling */
+.searchTitle {
+  margin-bottom: 16px;      /* corresponds to mb: 2 (2 * 8px) */
+}
+
+/* TextField styling */
+.searchInputField {
+  background-color: #F0F2F5;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 15px;
+}
+
+/* Remove the default border from the outlined TextField */
+.searchInputField .MuiOutlinedInput-notchedOutline {
+  border: none;
+}
+.MuiFormControl-root{
+    margin-top: 12px;
+}
+
+
+.searchInputField .MuiOutlinedInput-input {
+  padding: 9px 16px;
+
+}
+
+/* Styling for the search icon */
+.searchIcon {
+  color: #5A6670;
+}

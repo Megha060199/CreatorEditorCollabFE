@@ -1,0 +1,19 @@
+.approveButton {
+    display: block!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    background-color: #EAEFF5!important;
+    color: #000!important;
+    border-radius: 11px!important;
+    padding-top: 4px!important;      
+    padding-bottom: 4px!important;
+    padding-left: 72px!important;    
+    padding-right: 72px!important;
+    text-transform: none!important;
+    box-shadow: none!important;
+  }
+  
+  .approveButton:hover {
+    background-color: #DDE2EA!important;
+    box-shadow: none!important;
+  }
