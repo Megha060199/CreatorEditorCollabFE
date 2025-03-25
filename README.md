@@ -48,6 +48,9 @@ This project demonstrates the CONTENT CREATORS SIDE OF THE PROJECT.  We currentl
     3) Routes - API end points 
     4) Models - MongoDB Schema
     5)Sockets - Establishing Socket connection
+    6) db.js - establishing mongoDB connection 
+    7utils -> youtube client - connects with youtube auth for upload api 
+    
 
 
 
