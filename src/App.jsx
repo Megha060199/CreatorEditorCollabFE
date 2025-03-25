@@ -5,8 +5,9 @@ import theme from './theme';
 import Sidebar from './components/Sidebar/Sidebar';
 import HomePage from './components/Homepage/Homepage';
 import ProjectsPage from './components/Projectspage/Projects';
+import AllChats from './components/Chat/ChatRoute/AllConversations'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import ProjectDetails from './components/Projectspage/ProjectDetails/ProjectDetails'
+
 function App() {
 
   return (
@@ -20,7 +21,8 @@ function App() {
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/projects" element={<ProjectsPage />} />
-              <Route path="/projects/:id" element={<ProjectDetails />} />
+              <Route path="/chats" element={<AllChats userId={"1001"} />} />
+              
             </Routes>
           </Box>
       </Box>

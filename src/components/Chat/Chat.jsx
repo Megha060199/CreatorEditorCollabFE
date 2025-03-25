@@ -39,7 +39,7 @@ const Chat = ({ open, onClose, conversationId, userId, rightOffset, name }) => {
         zIndex: 1000,
       }}
     >
-      {/* Chat header with person's name */}
+
       <Box
         sx={{
           backgroundColor: 'primary.main',

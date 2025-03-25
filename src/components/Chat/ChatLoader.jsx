@@ -1,38 +1,22 @@
-// src/components/ChatLoader.jsx
 import React from 'react';
 import useFetch from '../../hooks/useFetch';
 import Chat from './Chat';
 
-const ChatLoader = ({ conversationEndpoint, userId, rightOffset, onClose, name }) => {
-  const { data, loading, error } = useFetch(conversationEndpoint);
+const ChatLoader = ({ conversationId, userId, name, rightOffset, onClose }) => {
+  const { data, loading, error } = useFetch(conversationId ? `/chat/messages/${conversationId}` : null);
 
-  if (loading) {
-    return (
-      <div style={{ position: 'fixed', bottom: 16, right: rightOffset, zIndex: 1000 }}>
-        Loading chat...
-      </div>
-    );
-  }
-
-  if (error) {
-    return (
-      <div style={{ position: 'fixed', bottom: 16, right: rightOffset, zIndex: 1000 }}>
-        Error loading chat.
-      </div>
-    );
-  }
-
-  const conversationId = data && data._id;
-  if (!conversationId) return null;
+  if (loading) return <div style={{ position:'fixed', bottom:16, right:rightOffset }}>Loading…</div>;
+  if (error) return <div style={{ position:'fixed', bottom:16, right:rightOffset }}>Error loading chat</div>;
+  if (!data?._id && !Array.isArray(data)) return null;
 
   return (
-    <Chat 
-      open={true}
+    <Chat
+      open
       onClose={onClose}
       conversationId={conversationId}
       userId={userId}
-      rightOffset={rightOffset}
       name={name}
+      rightOffset={rightOffset}
     />
   );
 };
