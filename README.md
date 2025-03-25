@@ -29,6 +29,32 @@ This project demonstrates the CONTENT CREATORS SIDE OF THE PROJECT.  We currentl
 - FOR EDITOR AND PROJECT DATA -  I built EDITOR and PROJECT SCHEMA on Mockaroo to get dummy data. Integreated the mock API from Mockaroo on my NODE.JS/EXPRESS.JS server on the backend 
 - FOR CHAT FUNCTIONALITY - I have used MongoDB using MongoAtlas to store data on the cloud. Built Chat APIS on the node.js/express.js server and established socket.io connection  for real-time message syncing. 
 -YOUTUBE UPLOAD API INTEGRATION  -  SINGLE USER ACCESS RIGHTS CONFIGURED. Refresh token from one single user is stored in .env file and used. This is for demo purpose. Actual application will have OAUTH configured for their youtube access rights on the platform with each user having its own refresh token saved in MONGODB. 
+- REACT ON THE FRONTEND WITH MATERIAL UI 
+
+
+- ################%% High Level View  OF FRONT END ##################
+    3 hooks 
+        useFetch - used in the entire application for GET API calls 
+        usePost  - used in the entire application for  Post API calls 
+        useChat  - hook for web socket connection for real time updates. 
+    API - client.jsx 
+        This has the base API Calls with base url and headers. Used inside useFetch  hook
+    
+    Components - Renders the UI. Divided into multiple child components for readibility and maintability. Each component has its .css file. 
+
+- ################%% High Level View  OF  BACK END ##################
+    1) Controllers - Function which call their specific service to get data from the desired source with appropriate error handling
+    2) Services - Connecting the DB/ third party endpoint
+    3) Routes - API end points 
+    4) Models - MongoDB Schema
+    5)Sockets - Establishing Socket connection
+
+
+
+
+    
+
+    
 
 
 
