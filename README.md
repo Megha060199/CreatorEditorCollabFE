@@ -33,14 +33,14 @@ This project demonstrates the CONTENT CREATORS SIDE OF THE PROJECT.  We currentl
 
 
 - ################%% High Level View  OF FRONT END ##################
-    3 hooks 
-        useFetch - used in the entire application for GET API calls 
-        usePost  - used in the entire application for  Post API calls 
-        useChat  - hook for web socket connection for real time updates. 
-    API - client.jsx 
-        This has the base API Calls with base url and headers. Used inside useFetch  hook
+    - 3 hooks 
+        1. useFetch - used in the entire application for GET API calls 
+        2. usePost  - used in the entire application for  Post API calls 
+        3. useChat  - hook for web socket connection for real time updates. 
+    - API - client.jsx 
+        1. This has the base API Calls with base url and headers. Used inside useFetch  hook
     
-    Components - Renders the UI. Divided into multiple child components for readibility and maintability. Each component has its .css file. 
+    - Components - Renders the UI. Divided into multiple child components for readibility and maintability. Each component has its .css file. 
 
 - ################%% High Level View  OF  BACK END ##################
     1) Controllers - Function which call their specific service to get data from the desired source with appropriate error handling
