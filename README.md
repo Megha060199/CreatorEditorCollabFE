@@ -2,6 +2,7 @@
 
 
 ################ The Project Idea ###############
+
 This project is a web application built on MERN STACK. This application connects Content Creators with Content Editors/Other Content sourcers. Many content creators outsource their video editing to editors - once the video is edited they download it - review it and upload it to their youtube channels. Many content creators travel alot and They have an overhead of communicating with the editors and then downloading it and taking the time to upload it to youtube. 
 
 In this application I build a demo of how content creators can connect with editors on the platform and once the video is edited - they can review it on the platform itself. Once they approve the video,  the platform (after taking access rights) will upload it to youtube. The content creators have nothing to worry! They can chat with the editors on the platform, assign them the videos, request video changes , approve it and have the video uploaded. 
